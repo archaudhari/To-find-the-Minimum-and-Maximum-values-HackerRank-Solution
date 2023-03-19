@@ -48,3 +48,15 @@ function miniMaxSum(arr) {
   console.log(`${sum - max} ${sum - min}`);
 }
 */
+// This solution iterates over the array using a for loop and keeps track of the sum, minimum, and maximum values. After the loop completes, the minimum and maximum values are subtracted from the sum to get the final output.
+
+// Using array methods to find the minimum and maximum values:
+// function miniMaxSum(arr) {
+//   let sum = arr.reduce((acc, curr) => acc + curr, 0);
+//   let min = Math.min.apply(null, arr);
+//   let max = Math.max.apply(null, arr);
+
+//   console.log(`${sum - max} ${sum - min}`);
+// }
+// This solution uses the reduce method to calculate the sum of the array, and the Math.min and Math.max functions with the apply method to find the minimum and maximum values. The apply method is used to pass the array as individual arguments to the Math.min and Math.max functions.
+
