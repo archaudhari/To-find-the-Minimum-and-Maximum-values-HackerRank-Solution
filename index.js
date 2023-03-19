@@ -59,4 +59,3 @@ function miniMaxSum(arr) {
 //   console.log(`${sum - max} ${sum - min}`);
 // }
 // This solution uses the reduce method to calculate the sum of the array, and the Math.min and Math.max functions with the apply method to find the minimum and maximum values. The apply method is used to pass the array as individual arguments to the Math.min and Math.max functions.
-
